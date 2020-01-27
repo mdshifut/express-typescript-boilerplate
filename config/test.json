@@ -1,0 +1,10 @@
+{
+  "DB": "mongodb://localhost:27017/boilerplate-test",
+  "JWT_SECRET_KEY": "secret",
+  "MAIL": {
+    "MAIL_HOST": "MAIL_HOST",
+    "MAIL_PORT": "MAIL_PORT",
+    "MAIL_USER": "MAIL_USER",
+    "MAIL_PASS": "MAIL_PASS"
+  }
+}

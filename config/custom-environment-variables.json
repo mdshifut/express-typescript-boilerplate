@@ -1,0 +1,10 @@
+{
+  "DB": "DB",
+  "JWT_SECRET_KEY": "JWT_SECRET_KEY",
+  "MAIL": {
+    "MAIL_HOST": "MAIL_HOST",
+    "MAIL_PORT": "MAIL_PORT",
+    "MAIL_USER": "MAIL_USER",
+    "MAIL_PASS": "MAIL_PASS"
+  }
+}
