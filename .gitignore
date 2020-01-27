@@ -99,4 +99,7 @@ coverage/
 #logs
 logs
 
+#build package
+build
+
 # End of https://www.gitignore.io/api/node
