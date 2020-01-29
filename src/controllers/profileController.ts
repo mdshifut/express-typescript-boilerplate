@@ -4,17 +4,18 @@ import { create } from "../services/profile";
 
 interface ICreateProfileReq extends Request {
   locals: {
-    validateValue: IProfile;
+    validateValue: object;
   };
 }
 
 export const createProfile = async (
-  req: ICreateProfileReq,
+  req: Request,
   res: Response
 ): Promise<any> => {
   const { validateValue } = req.locals;
-
-  await create(validateValue);
+  if (validateValue) {
+    await create(validateValue);
+  }
 
   res.status(201).json({ message: "Profile created successfully." });
   return;
