@@ -29,7 +29,7 @@
     "@types/supertest": "^2.0.8",
     "copyfiles": "^2.2.0",
     "jest": "^25.1.0",
-    "merge": "^1.2.1",
+    "merge": "^2.1.1",
     "nodemon": "^2.0.2",
     "prettier": "^1.19.1",
     "rimraf": "^3.0.0",
